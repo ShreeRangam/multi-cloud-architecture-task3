@@ -28,34 +28,20 @@ The frontend sends a request to the backend API hosted on another cloud provider
 
 - **AWS S3** – for hosting the static website
 - **Azure Function App** – for backend API
-- **JavaScript (Fetch API)** – to connect frontend with backend
-- **HTML/CSS** – for UI
 - **GitHub** – for version control and documentation
 
 ---
 
 ## 🖼️ Architecture Diagram
 
-![Architecture Diagram](./architecture-diagram.png)
-
-> Diagram shows the frontend hosted in AWS S3 making a call to an Azure Function API.
-
 ---
-
-## 🌍 Live Demo
-
-- 🔗 **Frontend URL (AWS S3)**: [https://my-multicloud-frontend.s3-website.ap-south-1.amazonaws.com](#)
-- 🔗 **Backend API (Azure)**: [https://multicloud-api.azurewebsites.net/api/hello](#)
-
----
-
 ## 🛠 Setup Instructions
 
 ### ✅ Part 1: Deploy Frontend on AWS S3
 
 1. Create an **S3 bucket**
 2. Enable **static website hosting**
-3. Upload your HTML/JS files
+3. Upload your HTML
 4. Make bucket public via **Bucket Policy**
 5. Note the **S3 website endpoint**
 
